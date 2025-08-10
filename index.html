@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recipe App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="overlay hidden" id="overlay"></div>
+  
+  <header>
+    <h1 class="site-title">Recipe App</h1>
+    <nav>
+      <button id="hamburger">☰</button>
+      <ul id="nav-links" class="hidden">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipe.html">Recipe</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="search-card">
+        <h2>Search A Recipe</h2>
+          <div id="search-part">
+            <input 
+              type="text"
+              placeholder="Search a recipe"
+              id="search-field" />
+            <button id="search-btn">Search</button>
+          </div>
+    </div>
+    <div id="recipe-container">
+      <div class="center-content">
+        <p>Welcome to the Recipe App! Search for your favorite recipes</p><p>or</p> <p>Click <a href="recipe.html">here</a> to view some random recipes.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Recipe App. All rights reserved.</p>
+  </footer>
+
+  <script src="navbar.js" defer></script>
+  <script src="script.js" defer></script>
+</body>
+</html>
