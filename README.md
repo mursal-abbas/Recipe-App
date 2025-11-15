@@ -17,7 +17,7 @@ It is designed for quick navigation, responsive design, and interactive recipe b
 - Contact page for feedback
 
 ## View live project
-- https://mursal-abbas.github.io/recipe-app
+- https://mursal-abbas.github.io/Recipe-App
 
 ---
 💡 *Feel free to fork this project and add your own recipes!*
